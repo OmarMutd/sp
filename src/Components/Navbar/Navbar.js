@@ -7,9 +7,9 @@ function Navbar() {
         <div>
             <nav className='navbar'>
                 <ul className='main-nav'>
-                    <Link to='/'><li className='main-route'>Home</li></Link>
-                    <Link to='/menu'><li>Menu</li></Link>
-                    <Link to='/about'><li>About</li></Link>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/menu'>Menu</Link></li>
+                    <li><Link to='/about'>About</Link></li>
                 </ul>
             </nav>
         </div>
