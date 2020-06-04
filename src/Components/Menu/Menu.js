@@ -1,11 +1,16 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import './Menu.css';
+import { Link } from 'react-router-dom';
 
 function Menu() {
     return (
         <div>
-            <Navbar/>
-            <h2>This is the menu!</h2>
+            <ul className='category-navigation'>
+                <Link to='/Pasta'><li>Pasta</li></Link>
+                <li>Subs</li>
+            </ul>
+
+
         </div>
     )
 }

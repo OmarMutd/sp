@@ -1,8 +1,10 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Menu from './Components/Menu/Menu';
 import About from './Components/About/About';
+import Navbar from './Components/Navbar/Navbar';
+import Pasta from './Components/MenuLinks/Pasta';
 import PageDoesNotExist from './Components/PageDoesNotExist/PageDoesNotExist';
 
 
@@ -11,12 +13,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route  path='/menu' component={Menu} />
-          <Route  path='/about' component={About} />
-          <Route component={PageDoesNotExist} />
-        </Switch>
+      <Navbar />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/menu' component={Menu} />
+        <Route path='/about' component={About} />
+        <Route path='/Pasta' component={Pasta} />
+        <Route component={PageDoesNotExist} />
+      </Switch>
     </div>
   );
 }
