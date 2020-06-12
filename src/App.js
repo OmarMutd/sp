@@ -13,6 +13,8 @@ import KidsPage from './Components/MenuLinks/KidsPage';
 import DessertsPage from './Components/MenuLinks/DessertsPage';
 import BeveragesPage from './Components/MenuLinks/BeveragesPage';
 import PageDoesNotExist from './Components/PageDoesNotExist/PageDoesNotExist';
+import Footer from './Components/Footer/Footer';
+import Coupons from './Components/Coupons/Coupons';
 
 
 import './App.css';
@@ -33,8 +35,10 @@ function App() {
         <Route path='/Kids' component={KidsPage} />
         <Route path='/Desserts' component={DessertsPage} />
         <Route path='/Beverages' component={BeveragesPage} />
+        <Route path='/Coupons' component={Coupons} />
         <Route component={PageDoesNotExist} />
       </Switch>
+      <Footer />
     </div>
   );
 }
