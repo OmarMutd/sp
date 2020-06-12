@@ -1,0 +1,26 @@
+.coupon {
+    border-style: dotted;
+    border-color: red;
+    text-align: center;
+}
+
+.coupon-name {
+    font-family: Square Sans Serif;
+    font-size: 30px;
+    color: white;
+    background: red;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .coupon {
+        width: 50%;
+        align-content: center;  
+     }
+     /* .all-coupons {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+     } */
+}
