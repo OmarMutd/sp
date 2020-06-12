@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 
-export class Pasta extends Component {
+export class Sub extends Component {
     render() {
-        const { title, price, ingredients, url } = this.props.pasta
+        const { title, price, url, category } = this.props.sub
         return (
             <div className='card'>
                 <div className="item_item-card">
                     <div className="item_item-image">
-                        <div> <img src={url} alt='pasta' /></div>
+                        <div> <img src={url} alt={category} /></div>
                     </div>
                     <p> {title}</p>
-                    <p>{ingredients}</p>
                     <p>{price}</p>
                 </div>
 
@@ -19,4 +18,4 @@ export class Pasta extends Component {
     }
 }
 
-export default Pasta;
+export default Sub;

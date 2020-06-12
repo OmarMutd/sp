@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 
-export class Pasta extends Component {
+export class Gourmet extends Component {
     render() {
-        const { title, price, ingredients, url } = this.props.pasta
+        const { title, ingredients, url } = this.props.gourmet
         return (
             <div className='card'>
                 <div className="item_item-card">
                     <div className="item_item-image">
-                        <div> <img src={url} alt='pasta' /></div>
+                        <div> <img src={url} alt='pizza' /></div>
                     </div>
                     <p> {title}</p>
                     <p>{ingredients}</p>
-                    <p>{price}</p>
                 </div>
 
             </div>
@@ -19,4 +18,4 @@ export class Pasta extends Component {
     }
 }
 
-export default Pasta;
+export default Gourmet;
