@@ -7,7 +7,7 @@ function Home() {
         <div>
             <h1 className='Welcome-to-Sopranos'>Welcome to Sopranos!</h1>
             <p align="center">
-                <img src={SopranosHours} alt='store hours' />
+                <img src={SopranosHours} alt='store hours' className='store-hours' />
             </p>
             <p className='about-us'>
                 We Offer more than just pizza. We have an extensive Italian menu offering Pizza, Subs, Calzone, Stromboli, and varied

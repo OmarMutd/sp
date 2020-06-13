@@ -1,0 +1,10 @@
+.garland {
+    margin-top: 40px;
+    width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+    .garland {
+        width: 30%;
+    }
+}

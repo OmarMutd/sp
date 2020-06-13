@@ -1,5 +1,6 @@
 import React from 'react';
-import Garland from '../../garland.jpeg'
+import Garland from '../../garland.jpeg';
+import './About.css';
 
 function About() {
     return (
@@ -10,11 +11,11 @@ function About() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src={Garland} alt='store hours' />
+                    <img className='garland' src={Garland} alt='store hours' />
                 </a>
             </p>
         </div>
     )
 }
 
-export default About
+export default About;

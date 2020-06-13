@@ -1,3 +1,14 @@
 .Welcome-to-Sopranos {
     text-align: center;
+    margin-top: 10px;
+}
+
+.store-hours {
+    width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+    .store-hours {
+        width: 40%;
+    }
 }

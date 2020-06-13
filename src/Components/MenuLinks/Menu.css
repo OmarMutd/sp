@@ -21,4 +21,7 @@
   .Category-title {
     font-family: "Anton",sans-serif;
     text-align: center;
+    border-bottom: 0.75px solid #E2E2E2;
+    margin-bottom: 5px;
+    padding-top: 10px;
   }

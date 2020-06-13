@@ -4,23 +4,34 @@
     text-align: center;
 }
 
+.all-coupons {
+    margin-bottom: 40px;
+}
+
 .coupon-name {
     font-family: Square Sans Serif;
     font-size: 30px;
     color: white;
     background: red;
     margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 @media screen and (min-width: 600px) {
     .coupon {
-        width: 50%;
-        align-content: center;  
+    height: 220px;
+    width: 250px;
+    align-content: center;
+    margin-bottom: 10px;
      }
-     /* .all-coupons {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-     } */
+     .all-coupons {
+        padding-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
 }

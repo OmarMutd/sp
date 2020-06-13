@@ -1,3 +1,20 @@
 .category-navigation {
     color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-txt {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.menu-txt:visited {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
 }
