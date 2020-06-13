@@ -2,6 +2,7 @@
     border-style: dotted;
     border-color: red;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .all-coupons {
@@ -19,10 +20,11 @@
 
 @media screen and (min-width: 600px) {
     .coupon {
-    height: 220px;
+    height: 188px;
     width: 250px;
     align-content: center;
     margin-bottom: 10px;
+    word-spacing: 10px;
      }
      .all-coupons {
         padding-top: 30px;

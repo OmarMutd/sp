@@ -1,14 +1,11 @@
 .category-navigation {
     color: black;
-    list-style: none;
-    text-decoration: none;
 }
 
 .menu-txt {
     color: black;
     list-style: none;
     text-decoration: none;
-
 }
 
 .menu-txt:visited {
@@ -17,4 +14,19 @@
     list-style: none;
     text-decoration: none;
 
+}
+
+.menu-txt {
+    border-bottom: 0.75px solid #E2E2E2;
+    font-size: 4vw;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'IntroBold';
+}
+
+.icon-img {
+    margin: auto;
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
 }
