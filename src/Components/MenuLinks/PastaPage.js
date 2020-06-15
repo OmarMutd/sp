@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import config from "../../config";
 import Pasta from './Pasta';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,6 +26,7 @@ export class PastaPage extends Component {
         const value = this.state.data;
         return (
             <div>
+                <Link to='/menu'><div className='menu-back'>&#x2190; Menu </div></Link>
                 <h1 className='Category-title'>Pasta</h1>
                 <div>
                     {value.map((pasta) => {
