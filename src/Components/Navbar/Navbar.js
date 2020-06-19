@@ -1,20 +1,37 @@
 import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import '../SideDrawer/DrawerToggleButton';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 
-function Navbar() {
+
+
+const Navbar = props => {
+
+
     return (
-        <div>
-            <nav className='navbar'>
-                <ul className='main-nav'>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/menu'>Menu</Link></li>
-                    <li><Link to='/coupons'>Coupons</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                </ul>
+        //             <li><Link to='/about'>About</Link></li>
+
+        <header className='toolbar'>
+            <nav className='toolbar__navigation'>
+                <div>
+                    <DrawerToggleButton click={props.drawerClickHandler} />
+                </div>
+                <div className='toolbar__logo'><Link to='/'>SOPRANOS</Link></div>
+                <div className='spacer'></div>
+                <div className='toolbar_navigation-items'>
+                    <ul>
+                        <li><Link to='/menu'>Menu</Link></li>
+                        <li><Link to='/coupons'>Coupons</Link></li>
+
+                    </ul>
+                </div>
             </nav>
-        </div>
+        </header>
     )
 }
 
+
 export default Navbar;
+
+

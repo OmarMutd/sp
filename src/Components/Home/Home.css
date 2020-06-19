@@ -7,6 +7,14 @@
     width: 90%;
 }
 
+.menu-home {
+    background: #005f85;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
     .store-hours {
         width: 40%;

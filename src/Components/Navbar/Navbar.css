@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 .navbar {
     background-color: rgb(18,18,18);
@@ -37,6 +37,61 @@
 a:hover {
     color: yellow;
 }
+
+@media screen and (min-width: 600px) {
+    .main-nav {
+        visibility: visible;
+    }
+    
+} */
+
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    background-color: #B01820;
+    height: 56px;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.toolbar__logo {
+    margin: 1rem;
+}
+
+.toolbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.spacer {
+    flex: 1;
+}
+.toolbar_navigation-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.toolbar_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.toolbar_navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 
 

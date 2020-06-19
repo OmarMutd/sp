@@ -18,7 +18,7 @@ function Menu() {
         <div>
             <h1 className='Category-title'>Menu</h1>
             <ul className='category-navigation'>
-                <Link to='/Pasta'><li className='menu-txt'><img src={PastaLogo} alt='pasta' className='icon-img' /> Pasta</li></Link>
+                <Link to='/Pasta'><div className='menu-section'><li className='menu-txt'><img src={PastaLogo} alt='pasta' className='icon-img' /> Pasta</li></div></Link>
                 <Link to='/Subs'><li className='menu-txt'><img src={SubLogo} alt='subs' className='icon-img' />Subs</li></Link>
                 <Link to='/Gourmet'><li className='menu-txt'><img src={PizzaLogo} alt='pizza' className='icon-img' />Gourmet</li></Link>
                 <Link to='/SoupsSalads'><li className='menu-txt'><img src={SaladLogo} alt='salad' className='icon-img' />Soups And Salads</li></Link>

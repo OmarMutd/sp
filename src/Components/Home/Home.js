@@ -6,6 +6,7 @@ function Home() {
     return (
         <div>
             <h1 className='Welcome-to-Sopranos'>Welcome to Sopranos!</h1>
+            {/* <button className='menu-home'>View our Menu</button> */}
             <p align="center">
                 <img src={SopranosHours} alt='store hours' className='store-hours' />
             </p>
