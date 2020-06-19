@@ -14,7 +14,7 @@ const Navbar = props => {
 
         <header className='toolbar'>
             <nav className='toolbar__navigation'>
-                <div>
+                <div className='toolbar-btn'>
                     <DrawerToggleButton click={props.drawerClickHandler} />
                 </div>
                 <div className='toolbar__logo'><Link to='/'>SOPRANOS</Link></div>
