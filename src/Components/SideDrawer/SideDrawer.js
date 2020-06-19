@@ -10,6 +10,7 @@ const SideDrawer = props => {
     }
     return (
         <nav className={drawerClasses}>
+            <p onClick={props.click} className='x-button'> X</p>
             <ul>
                 <li onClick={props.click}><Link to='/'>Home</Link></li>
                 <li onClick={props.click}><Link to='/menu'>Menu</Link></li>

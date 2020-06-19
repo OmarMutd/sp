@@ -12,13 +12,12 @@
 }
 
 .toggle-button {
-outline: none;
-
+    outline: none;
 }
 
 .toggle-button__line {
     width: 30px;
-    height: 2px;
+    height: 3px;
     background: white;
-
+    /* border-radius: 20%; */
 }
