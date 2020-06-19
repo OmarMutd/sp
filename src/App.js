@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <div className="App" style={{ height: '100%' }}>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
         {backdrop}
         <Switch style={{ marginTop: '64px' }}>
           <Route exact path='/' component={Home} />
