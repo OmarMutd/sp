@@ -1,10 +1,11 @@
 .Welcome-to-Sopranos {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 .store-hours {
     width: 90%;
+    margin-top: 20px;
 }
 
 .menu-home {
@@ -13,6 +14,10 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+}
+
+.about-us {
+    margin: 30px;
 }
 
 @media screen and (min-width: 600px) {

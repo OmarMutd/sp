@@ -3,49 +3,65 @@
     height: 100%;
     width: 20%;
     border-radius: 50%;
-}
+  }
 
-.item_item-card {
-  border-bottom: 0.75px solid #E2E2E2;
+  .item_item-card {
+    border-bottom: 0.75px solid #E2E2E2;
     font-size: 4vw;
     text-align: left;
     font-weight: 400;
     font-family: 'IntroBold';
     margin-top: 10px;
-}
+  }
 
   .Category-title {
-    font-family: "Anton",sans-serif;
+    font-family: "Anton", sans-serif;
     text-align: center;
     border-bottom: 0.75px solid #E2E2E2;
     margin-bottom: 5px;
     padding-top: 10px;
   }
 
+  .Category-title.two {
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    border-bottom: 0.75px solid #E2E2E2;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    margin-top: 0px;
+  }
+
   .menu-back {
+    /* position: fixed; */
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    background: #3e2723;
+    background: black;
     color: #fff;
+    margin-top: 60px;
+    height: 28px;
+  }
+
+  .back-txt {
+    /* position: relative; */
+    /* top: 4px; */
   }
 
   @media screen and (min-width: 600px) {
-  .item_item-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
+    .item_item-card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+    }
+    .item_item-card button:hover {
+      opacity: 0.7;
+    }
+    .item_item-image img {
+      max-width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
   }
-  .item_item-card button:hover {
-    opacity: 0.7;
-  }
-  
-  .item_item-image img {
-    max-width: 100%;
-    height: 250px;
-    object-fit: cover;
-  }
-}

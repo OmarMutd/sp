@@ -26,8 +26,8 @@ export class GourmetPage extends Component {
         const value = this.state.data;
         return (
             <div>
-                <Link to='/menu'><div className='menu-back'>&#x2190; Menu </div></Link>
-                <h1 className='Category-title'>Gourmet Pizzas</h1>
+                <Link to='/menu'><div className='menu-back'><p className='back-txt'>&#x2190; Menu</p> </div></Link>
+                <h1 className='Category-title two'>Gourmet Pizzas</h1>
                 <div>
                     {value.map((gourmet) => {
                         return (

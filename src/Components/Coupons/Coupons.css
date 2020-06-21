@@ -6,7 +6,8 @@
 }
 
 .all-coupons {
-    margin-bottom: 100px;
+    margin-bottom: 65px;
+    margin-top: 55px;
 }
 
 .coupon-name {
@@ -20,13 +21,13 @@
 
 @media screen and (min-width: 600px) {
     .coupon {
-    height: 188px;
-    width: 250px;
-    align-content: center;
-    margin-bottom: 10px;
-    word-spacing: 10px;
-     }
-     .all-coupons {
+        height: 188px;
+        width: 250px;
+        align-content: center;
+        margin-bottom: 10px;
+        word-spacing: 10px;
+    }
+    .all-coupons {
         padding-top: 30px;
         display: block;
         margin-left: auto;
@@ -34,6 +35,5 @@
         width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-     }
-
+    }
 }

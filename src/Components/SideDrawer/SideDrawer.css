@@ -47,6 +47,13 @@
     font-weight: bold;
 }
 
+.side-drawer-header {
+    font-size: 25px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    /* background-color: black; */
+}
+
 @media (min-width: 769px) {
     .side-drawer {
         display: none;
