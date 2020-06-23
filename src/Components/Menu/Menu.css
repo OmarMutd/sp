@@ -27,12 +27,14 @@
 }
 
 .menu-txt {
-    border-bottom: 0.75px solid #E2E2E2;
     font-size: 4vw;
     text-align: center;
     font-weight: 400;
     font-family: 'IntroBold';
     margin-top: 10px;
+    margin: 0;
+    position: relative;
+    bottom: 60px;
 }
 
 .menu-txt a:hover, .menu-txt a:active {
@@ -52,4 +54,8 @@
     width: 67px;
     height: 67px;
     object-fit: cover;
+}
+
+.menu-sect {
+    border-bottom: 0.75px solid #E2E2E2;
 }

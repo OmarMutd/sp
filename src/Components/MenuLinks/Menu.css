@@ -43,9 +43,15 @@
     height: 28px;
   }
 
-  .back-txt {
-    /* position: relative; */
-    /* top: 4px; */
+  .menu-txt.two {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'IntroBold';
+    margin-top: 10px;
+    margin: 0;
+    position: relative;
+    bottom: 50px;
   }
 
   @media screen and (min-width: 600px) {
