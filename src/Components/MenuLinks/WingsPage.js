@@ -27,7 +27,7 @@ export class PastaPage extends Component {
         return (
             <div>
                 <Link to='/menu'><div className='menu-back'><p className='back-txt'>&#x2190; Menu</p> </div></Link>
-                <h1 className='Category-title two'>Wings</h1>
+                <h1 className='Category-title two'>Wings & Things</h1>
                 <div>
                     {value.map((wing) => {
                         return (

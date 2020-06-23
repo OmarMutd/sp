@@ -5,16 +5,17 @@ export class Dessert extends Component {
     render() {
         const { title, price, url } = this.props.dessert
         return (
-            <div className='card'>
-                <div className="item_item-card">
-                    <div className="item_item-image">
-                        <div> <img src={url} alt='dessert' /></div>
+            <ul className='category-navigation'>
+                <div className="menu-sect">
+                    <div> <img src={url} alt='dessert' className='icon-img' /></div>
+                    <div className='menu-txt'>
+                        <p> {title}</p>
                     </div>
-                    <p> {title}</p>
-                    <p>{price}</p>
+                    <p className='menu-txt two'>{price}</p>
+
                 </div>
 
-            </div>
+            </ul>
         )
     }
 }

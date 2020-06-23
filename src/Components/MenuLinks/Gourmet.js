@@ -4,16 +4,17 @@ export class Gourmet extends Component {
     render() {
         const { title, ingredients, url } = this.props.gourmet
         return (
-            <div className='card'>
-                <div className="item_item-card">
-                    <div className="item_item-image">
-                        <div> <img src={url} alt='pizza' /></div>
+            <ul className='category-navigation'>
+                <div className="menu-sect">
+                    <div> <img src={url} alt='pizza' className='icon-img' /></div>
+                    <div className='menu-txt'>
+                        <p> {title}</p>
                     </div>
-                    <p> {title}</p>
-                    <p>{ingredients}</p>
+                    <p className='menu-txt two'>{ingredients}</p>
+
                 </div>
 
-            </div>
+            </ul>
         )
     }
 }
