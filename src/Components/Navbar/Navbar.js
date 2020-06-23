@@ -21,8 +21,9 @@ const Navbar = props => {
                 <div className='spacer'></div>
                 <div className='toolbar_navigation-items'>
                     <ul>
-                        <li><Link to='/menu'>Menu</Link></li>
-                        <li><Link to='/coupons'>Coupons</Link></li>
+                        <li className='desktop-menu'><Link to='/menu'>Menu</Link></li>
+                        <li className='desktop-menu'><Link to='/coupons'>Coupons</Link></li>
+                        <li className='desktop-menu'><Link to='/about'>About</Link></li>
 
                     </ul>
                 </div>

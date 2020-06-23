@@ -4,7 +4,9 @@ import './Coupons.css';
 export class Coupons extends Component {
     render() {
         return (
+
             <div className='all-coupons'>
+
                 <div className='coupon-set'>
 
                     <div className='coupon'>

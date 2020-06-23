@@ -5,7 +5,7 @@ export class Footer extends Component {
     render() {
         return (
             <div>
-                <p className='footer'> This is the Footer</p>
+                <p className='footer'>© 2020 Sopranos Pizza, LLC</p>
             </div>
         )
     }

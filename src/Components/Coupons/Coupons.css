@@ -7,7 +7,7 @@
 
 .all-coupons {
     margin-bottom: 65px;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 .coupon-name {
@@ -17,6 +17,10 @@
     background: red;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.Category-title.three {
+    margin-bottom: 0px;
 }
 
 @media screen and (min-width: 600px) {

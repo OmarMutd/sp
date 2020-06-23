@@ -65,6 +65,15 @@
     bottom: 30px;
   }
 
+  .menu-txt.four {
+    padding-left: 70px;
+  }
+
+  .menu-sect.five {
+    margin-top: 0px;
+    margin-bottom: 1px;
+  }
+
   @media screen and (min-width: 600px) {
     .item_item-card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

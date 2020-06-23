@@ -3,6 +3,10 @@
     width: 90%;
 }
 
+.garland:hover {
+    opacity: 0.5;
+}
+
 @media screen and (min-width: 600px) {
     .garland {
         width: 30%;

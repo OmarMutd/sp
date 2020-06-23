@@ -59,3 +59,7 @@
 .menu-sect {
     border-bottom: 0.75px solid #E2E2E2;
 }
+
+.menu-sect:hover {
+    opacity: 0.5;
+}

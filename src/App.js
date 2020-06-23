@@ -14,7 +14,7 @@ import DessertsPage from './Components/MenuLinks/DessertsPage';
 import BeveragesPage from './Components/MenuLinks/BeveragesPage';
 import PageDoesNotExist from './Components/PageDoesNotExist/PageDoesNotExist';
 import Footer from './Components/Footer/Footer';
-import Coupons from './Components/Coupons/Coupons';
+import Coupon from './Components/Coupons/Coupon';
 import SideDrawer from './Components/SideDrawer/SideDrawer';
 import Backdrop from './Components/Backdrop/Backdrop';
 
@@ -58,7 +58,7 @@ class App extends Component {
           <Route path='/Kids' component={KidsPage} />
           <Route path='/Desserts' component={DessertsPage} />
           <Route path='/Beverages' component={BeveragesPage} />
-          <Route path='/Coupons' component={Coupons} />
+          <Route path='/Coupons' component={Coupon} />
           <Route component={PageDoesNotExist} />
         </Switch>
         <Footer />
