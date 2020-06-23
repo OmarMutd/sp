@@ -2,15 +2,16 @@ import React, { Component } from 'react'
 
 export class Wing extends Component {
     render() {
-        const { title, price, url, category } = this.props.wing
+        const { title, price, url, category, multiprice } = this.props.wing
         return (
             <ul className='category-navigation'>
                 <div className="menu-sect five">
                     <div> <img src={url} alt={category} className='icon-img' /></div>
-                    <div className='menu-txt four' >
-                        <p> {title}</p>
+                    <div className='menu-txt' >
+                        <p className='wings-txt'> {title}</p>
                     </div>
-                    <p className='menu-txt two'>{price}</p>
+                    <p className='menu-txt two pizza'>{price}</p>
+                    <p className='menu-txt two pizza'>{multiprice}</p>
 
                 </div>
 

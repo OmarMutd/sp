@@ -6,11 +6,11 @@ export class Gourmet extends Component {
         return (
             <ul className='category-navigation'>
                 <div className="menu-sect">
-                    <div> <img src={url} alt='pizza' className='icon-img' /></div>
+                    <div> <img src={url} alt='pizza' className='icon-img pizza' /></div>
                     <div className='menu-txt'>
                         <p> {title}</p>
                     </div>
-                    <p className='menu-txt two'>{ingredients}</p>
+                    <p className='menu-txt two pizza'>{ingredients}</p>
 
                 </div>
 

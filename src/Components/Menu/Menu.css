@@ -63,3 +63,22 @@
 .menu-sect:hover {
     opacity: 0.5;
 }
+
+@media (min-width: 769px) {
+    .menu-txt {
+        font-size: 36px;
+    }
+    p.menu-txt.two {
+        font-size: 36px;
+    }
+    p.menu-txt.three {
+        font-size: 36px;
+    }
+    p.menu-txt.four {
+        font-size: 36px;
+    }
+    img.icon-img {
+        height: 190px;
+        width: 170px;
+    }
+}

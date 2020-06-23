@@ -74,6 +74,30 @@
     margin-bottom: 1px;
   }
 
+  .sub-options {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 0.75px solid #E2E2E2;
+  }
+
+  .sub-options.pizza {
+    font-size: 12px;
+  }
+
+  p.menu-txt.two.pizza {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+  }
+
+  .wings-txt {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+  }
+
   @media screen and (min-width: 600px) {
     .item_item-card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

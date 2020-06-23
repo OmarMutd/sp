@@ -10,7 +10,7 @@ const SideDrawer = props => {
     return (
         <nav className={drawerClasses}>
             <p onClick={props.click} className='x-button'> X</p>
-            <h1 className='side-drawer-header'>Sopranos</h1>
+            {/* <h1 className='side-drawer-header'>Sopranos</h1> */}
             {/* <img src={PizzaLogo} alt='pizza-logo' className='pizza-logo-img' /> */}
 
             <ul>

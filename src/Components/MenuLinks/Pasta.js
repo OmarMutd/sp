@@ -10,8 +10,8 @@ export class Pasta extends Component {
                     <div className='menu-txt'>
                         <p> {title}</p>
                     </div>
-                    <p className='menu-txt two'>{price}</p>
-                    <p className='menu-txt three'>{ingredients}</p>
+                    <p className='menu-txt two pizza'>{price}</p>
+                    <p className='menu-txt two pizza'>{ingredients}</p>
 
                 </div>
 

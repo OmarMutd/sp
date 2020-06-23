@@ -26,8 +26,9 @@ export class GourmetPage extends Component {
         const value = this.state.data;
         return (
             <div>
-                <Link to='/menu'><div className='menu-back'><p className='back-txt'>&#x2190; Menu</p> </div></Link>
+                <Link style={{ textDecoration: 'none' }} to='/menu'><div className='menu-back'><p className='back-txt'>&#x2190; Menu</p> </div></Link>
                 <h1 className='Category-title two'>Gourmet Pizzas</h1>
+                <p className='sub-options pizza'>Small: $9.99 | Medium: $14.99 | Large $16.99 | Giant $18.99</p>
                 <div>
                     {value.map((gourmet) => {
                         return (
