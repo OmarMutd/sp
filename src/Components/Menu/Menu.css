@@ -66,7 +66,11 @@
 
 @media (min-width: 769px) {
     .menu-txt {
-        font-size: 36px;
+        font-size: 29px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu-txt.two.pizza {
+        font-size: 20px;
     }
     p.menu-txt.two {
         font-size: 36px;
@@ -80,5 +84,52 @@
     img.icon-img {
         height: 190px;
         width: 170px;
+        border-radius: 0;
+        /* max-width: 100%;
+        height: 250px;
+        object-fit: cover; */
+    }
+    .menu-sect {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 190px;
+        max-height: 390px;
+        min-height: 280px;
+        margin: auto;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 15px;
+    }
+    .menu-sect.pasta {
+        min-height: 200px;
+    }
+    .category-navigation.main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .category-navigation.main.two {
+        /* width: 55%;
+        margin-right: 2%;
+        float: left; */
+        display: inline-block;
+        width: 45%;
+    }
+    .menu-txt.main {
+        position: relative;
+        top: 2px;
+        font-size: 22px;
+    }
+    .menu-txt.two.pizza {
+        position: relative;
+        top: 2px;
+        font-size: 22px;
+    }
+    .wings-txt.menu-text-two {
+        font-size: 16px;
+        position: relative;
+        top: 59px;
     }
 }

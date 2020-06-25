@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "vercel --prod"
+    "deploy": "vercel ./build"
   },
   "eslintConfig": {
     "extends": "react-app"

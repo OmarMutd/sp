@@ -10,7 +10,7 @@ function Home() {
             <p align="center">
                 <img src={SopranosHours} alt='store hours' className='store-hours' />
             </p>
-            <p className='about-us'>
+            <p className='about-us home'>
                 We Offer more than just pizza. We have an extensive Italian menu offering Pizza, Subs, Calzone, Stromboli, and varied
 
                 Pasta dishes at affordable prices that won't leave you with a bad taste. Our dough is made fresh daily. Our sauce is

@@ -98,7 +98,7 @@
     left: 25%;
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 769px) {
     .item_item-card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       max-width: 300px;
@@ -113,5 +113,25 @@
       max-width: 100%;
       height: 250px;
       object-fit: cover;
+    }
+    .Category-navigation.main {
+      /* display: block; */
+      /* margin-left: auto;
+      margin-right: auto; */
+      /* width: 50%; */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* justify-content: space-between; */
+      justify-content: space-between;
+    }
+    .menu-text-two {
+      font-size: 16px;
+      position: relative;
+      top: 59px;
+    }
+    .menu-txt.two.pizza {
+      font-size: 13.5px;
+      position: relative;
+      top: 0px;
     }
   }
