@@ -10,7 +10,7 @@ const Navbar = props => {
 
 
     return (
-        //             <li><Link to='/about'>About</Link></li>
+
 
         <header className='toolbar'>
             <nav className='toolbar__navigation'>
